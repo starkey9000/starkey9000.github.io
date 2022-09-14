@@ -1,0 +1,3 @@
+baseURL = 'http://starkey9000.github.io'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
