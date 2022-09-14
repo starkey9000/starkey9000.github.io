@@ -1,0 +1,4 @@
+<div {{with .Get "style" }}style="{{.}}" {{else}} {{ "" }}{{end}}>
+  <a {{with .Get "link" }}href="{{.}}" {{end}} target="_blank">{{ with .Get "title" }}{{.}}{{else}}{{.Get
+    "url"}}{{end}}</a>
+</div>

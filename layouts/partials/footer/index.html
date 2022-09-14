@@ -1,0 +1,22 @@
+<div class="footer">
+
+  <div class="footer-container">
+    <div class="footer-block">
+      <h2 class="footer-block-title">QUICK LINKS</h2>
+      {{ range .Site.Menus.mainmenu }}
+      <a class="link quick-link" href="{{ .URL }}">{{ .Name }}</a>
+      {{end}}
+    </div>
+
+    <div class="footer-block">
+      <h2 class="footer-block-title">RESOURCES</h2>
+      <a class="link quick-link" href="/">Create a pace band</a>
+      <a class="link quick-link" href="/">Explore Havre De Grace</a>
+      <a class="link quick-link" href="/">Explore Susquehanna State Park</a>
+      <a class="link quick-link" href="/">Explore Stepping Stone Farm Museum</a>
+    </div>
+  </div>
+
+</div>
+
+{{partial "footer/micro-footer" .}}

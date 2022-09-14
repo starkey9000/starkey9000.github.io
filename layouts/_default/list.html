@@ -1,0 +1,45 @@
+{{ define "title" }}
+{{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+{{partial "breadcrumbs" . }}
+<div class="main-content-narrow-wrapper">
+  <div class="blog-list-buffer">
+    <div class="blog-list-container">
+
+      <div class="news-list">
+        {{range .Pages}}
+
+        <div class="news-card">
+          <p class="news-card-date"><em>{{ .Date | time.Format ":date_full" }}</em></p>
+          <h2>{{.Title}}</h2>
+          {{truncate 150 .Content}}
+          <a class="news-card-button" href="{{.Permalink}}">
+            Read Full Post
+          </a>
+        </div>
+
+        {{end}}
+      </div>
+
+
+      <div class="aside">
+        <div class="aside-bg">
+          <div class="aside-entry">
+            <h2>Race Date</h2>
+            <p>{{.Site.Params.event.raceMonth}} {{.Site.Params.event.raceDate}}, {{.Site.Params.event.raceYear}}</p>
+          </div>
+          <div class="aside-entry">
+            <h2>Location</h2>
+            <p>Susquehanna State Park</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{{ end }}

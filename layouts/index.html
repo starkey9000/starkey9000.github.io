@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{.Site.BaseURL}}css/normalize.css" />
+  <link rel="stylesheet" href="{{.Site.BaseURL}}css/main.css" />
+  <title>HAT Run</title>
+</head>
+
+<body>
+  <nav>
+    {{partial "nav" .}}
+  </nav>
+  {{partial "header" .}}
+  <!-- <div class="main-content-narrow-wrapper"> -->
+  <div class="content-full-wrapper">
+    {{partial "homepage/opener" .}}
+  </div>
+
+  <!-- <div class="content-full-wrapper">
+    {{partial "directors" .}}
+  </div>
+
+  {{partial "partners" .}} -->
+
+  {{partial "footer/index" .}}
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<div class="directors-background">
+  <div class="main-content-narrow-wrapper">
+    <div class="directors-content">
+      <h1>OUR ULTRA-LOVING RACE DIRECTORS</h1>
+      <p>Meet the guys that keep this ship afloat! Each an experienced ultra-runner in his own right, Jeff, Tim, and
+        Ginn
+        know what it's like to pursue the physical and mental challenge of completing an ultra marathon. With a combined
+        185+ ultra finishes between them (including over 20 100milers!), you can guarantee they've “been there” and
+        “done
+        that”. They work tirelessly throughout the year to plan an enjoyable and safe HAT Run, and take pride in
+        creating
+        a
+        best-in-class race experience for you. Learn a little more about what makes them tick.</p>
+    </div>
+  </div>
+  <div class="main-content-narrow-wrapper">
+    <div class="directors-card-wrapper">
+    {{range .Site.Params.directors}}
+    <div class="director-card">
+      <img class="director-image" src="{{.img_url}}" alt="">
+      <div class="director-overlay">
+        <h4>{{.name}}</h4>
+        <!-- <p><em>{{.title}}</em></p> -->
+      </div>
+    </div>
+    {{end}}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+{
+  "baseURL": "https://starkey9000.github.io/hatrun/",
+  "languageCode": "en-us",
+  "title": "HAT RUN 50K",
+  "Params": {
+    "event": {
+      "raceMonth": "March",
+      "raceDate": "25",
+      "raceYear": "2023",
+      "annual": "33rd"
+    },
+    "registration": {
+      "month": "November",
+      "date": "25",
+      "year": "2022"
+    },
+    "navigation": [
+      "Runners",
+      "Volunteers",
+      "Spectators",
+      "Race Rules",
+      "News & Updates"
+    ],
+    "registerLink": "https://ultrasignup.com/register.aspx?did=97105",
+    "directors": [
+      {
+        "id": 1,
+        "img_url": "https://starkey9000.github.io/hatrun/img/directors/tim_gavin.jpg",
+        "name": "Tim Gavin",
+        "title": "Race Director"
+      },
+      {
+        "id": 2,
+        "img_url": "https://starkey9000.github.io/hatrun/img/directors/ginn_white.jpeg",
+        "name": "Ginn White",
+        "title": "Race Director"
+      },
+      {
+        "id": 3,
+        "img_url": "https://starkey9000.github.io/hatrun/img/directors/ginn_white.jpeg",
+        "name": "Seth McElroy",
+        "title": "Race Director"
+      }
+    ],
+    "builtBy": "SMS",
+    "copyright": 2022
+  }
+}

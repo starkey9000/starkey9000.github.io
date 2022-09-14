@@ -1,0 +1,36 @@
+{{ define "title" }}
+{{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+
+{{partial "breadcrumbs" . }}
+
+
+<div class="main-content-narrow-wrapper">
+
+  <div style="padding: 3rem 0rem;">
+    {{ if eq .Title "Spectators" }}
+    <p>It is the {{.Site.Params.event.annual}} running of the HAT Run and we want to celebrate with runners, family, and
+      guests. Come spend the
+      day and enjoy the race and the park!</p>
+    <iframe class="interactive-map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.126985161661!2d-76.14204318470125!3d39.60182181271867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c7c656c4e19c87%3A0x87cad4ac0baf531!2s461%20Quaker%20Bottom%20Rd%2C%20Havre%20De%20Grace%2C%20MD%2021078!5e0!3m2!1sen!2sus!4v1655569511416!5m2!1sen!2sus"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    {{end}}
+
+    {{ if .Date}}
+    <p><em>{{ .Date | time.Format ":date_full" }}</em></p>
+    {{end}}
+
+
+
+    {{ .Content }}
+
+  </div>
+
+</div>
+
+{{ end }}
