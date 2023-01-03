@@ -388,6 +388,24 @@ p {
   padding: 1rem 1rem 3rem 1rem;
 }
 
+.footer-block{
+  display: flex;
+  padding-top: 2rem;
+}
+
+.col-orientation{
+  flex-direction: column;
+}
+
+.row-orientation{
+  flex-direction: row;
+}
+
+.social-link{
+  width: 50px;
+  padding-right: .8rem;
+}
+
 @media only screen and (min-width: 767px) {
   .footer-container {
     display: flex;
@@ -403,12 +421,6 @@ p {
     margin: auto;
     padding: 0rem;
   }
-}
-
-.footer-block {
-  display: flex;
-  flex-direction: column;
-  padding-top: 2rem;
 }
 
 @media only screen and (min-width: 767px) {
@@ -443,7 +455,6 @@ p {
     padding: 1rem 5rem;
   }
 }
-
 
 /************ PAGES ***************/
 

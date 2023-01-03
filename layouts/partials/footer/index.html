@@ -1,14 +1,23 @@
 <div class="footer">
 
   <div class="footer-container">
-    <div class="footer-block">
+
+    <div class="footer-block col-orientation">
+      <h2 class="footer-block-title">FOLLOW US</h2>
+      <div style="display: flex" class="row-orientation">
+      <a class="social-link" href="https://www.facebook.com/HATRun" target="__blank"><img style="display: block" src="{{.Site.BaseURL}}img/social/facebook.svg"/></a>
+      <a class="social-link" href="https://instagram.com/hatrun50k" target="__blank"><img style="display: block" src="{{.Site.BaseURL}}img/social/instagram.svg"/></a>
+      </div>
+    </div>
+
+    <div class="footer-block col-orientation">
       <h2 class="footer-block-title">QUICK LINKS</h2>
       {{ range .Site.Menus.mainmenu }}
       <a class="link quick-link" href="{{ .URL }}">{{ .Name }}</a>
       {{end}}
     </div>
 
-    <div class="footer-block">
+    <div class="footer-block col-orientation">
       <h2 class="footer-block-title">RESOURCES</h2>
       <a class="link quick-link" href="/">Create a pace band</a>
       <a class="link quick-link" href="/">Explore Havre De Grace</a>
