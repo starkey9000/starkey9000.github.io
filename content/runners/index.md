@@ -16,9 +16,18 @@ The course is mostly single track trail with a mix of open fields, dirt road and
 
 {{< passedLink link="https://www.google.com/maps/place/Steppingstone+Farm+Museum/@39.6018227,-76.1398516,17z/data=!3m1!4b1!4m5!3m4!1s0x89c7c65ed0c11c41:0x5232b39734cda230!8m2!3d39.6018172!4d-76.1398981" title="Map to Steppingstone Museum" >}} <br />
 
+## Pricing Schedule
+
+Race registration opens Black Friday, November 24, at $90.
+That price is good through midnight Monday, November 27.
+
+Price will increase to $100 Tuesday November 28 through the end of the year.
+
+Price will increase on January 1, 2024 to $120, and remain open until March 17, 2024.
+
 ## Entry and Refund Policy
 
-The starting field is limited to 500 runners. A waiting list will be maintained for entrants 501-750. Entrants will be added on a first come first served basis as the original entrant pool is reduced by withdrawals.
+The starting field is limited to 350 runners. A waiting list will be maintained thereafter, and invitations to register extended on a first come, first served basis as the original entrant pool is reduced by withdrawals.
 
 ## Deferrals and Transfers
 
@@ -34,9 +43,9 @@ Withdrawing from the race can be done through UltraSignup.
 
 ## Refunds
 
-Entry refund until the first monday of January is $50. Entry refund until the first Monday of March is $40 unless the waitlist is cleared, then no refunds at that point. The field will be locked one week in advance of race day.
-
-Normal Year: Entry refund until 2 JAN 2020 is $50. Entry refund until 1 MAR 2020 is $40 unless the waitlist is cleared, then no refunds at that point.
+- Withdrawals prior to January 1, will receive a 75% refund minus transaction fees.
+- Withdrawals after January 1 through March 1, will receive a 50% refund minus transaction fees.
+- There is no refund for withdrawal after March 1.
 
 ## HAT Run Policy on Event Cancellation
 
