@@ -6,13 +6,11 @@ weight: "1"
 
 ## The Course
 
-The course is mostly single track trail with a mix of open fields, dirt road and some paved road. The course features nearly 4,300 feet of climbing. There is a starting loop of 3 miles followed by two identical loops of 14 miles. There are 4 stream crossings that can be challenging depending on the water level – there is always the chance of getting wet feet.
+The HAT Run is held on the trails of Susquehanna State Park. The course is mostly single track trail with a mix of open fields, dirt road and some paved road. The course features nearly 4,300 feet of climbing. There is a starting loop of 3 miles followed by two identical loops of 14 miles. There are 4 stream crossings that can be challenging depending on the water level – there is always the chance of getting wet feet.
 
 ![Hat Run Course Map](../img/hat_course_map.png)
 
 [HAT 50K on www.plotaroute.com](https://www.plotaroute.com/route/774080)
-
-[Download a PDF of the HAT Course](http://localhost:1313/img/hat_course_map.png)
 
 {{< passedLink link="https://www.google.com/maps/place/Steppingstone+Farm+Museum/@39.6018227,-76.1398516,17z/data=!3m1!4b1!4m5!3m4!1s0x89c7c65ed0c11c41:0x5232b39734cda230!8m2!3d39.6018172!4d-76.1398981" title="Map to Steppingstone Museum" >}} <br />
 
