@@ -8,7 +8,7 @@ weight: "2"
 
 The volunteers make this race what it is! Please come and join us again. If you don’t have the time of your life, we’ll refund you in full. We use {{< registrationMarkdownLink title="UltraSignup" >}} to register volunteers.
 
-Below the map are general instructions and information for all volunteers, and task-specific details you may find helpful in preparation for your big day. The captain of your assigned area will contact you in advance of race day with further information and to answer questions you may have.
+Below the map are general instructions and information for all volunteers, and task-specific details you may find helpful in preparation for your big day. The captain of your assigned area will contact you in advance of race day with further information and to answer questions you may have. If you are under 18, parental approval is required on the Ultra Sign Up registration form.
 
 If you need to reach us before that, you can contact us through UltraSignup.
 
