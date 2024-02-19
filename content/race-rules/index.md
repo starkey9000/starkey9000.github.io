@@ -6,7 +6,7 @@ weight: "4"
 
 1. Absolutely NO Transferring of bib numbers. Registered runners only! This is critical to the safe tracking of all participants and the future of this event. If you are caught transferring or selling your bib, using a pacer or running as a bandit, you will be barred from future events.
 
-2. Time Constraints will be STRICTLY enforced. These are not suggestions and are no longer up to the discretion of event staff or participants. A runner MUST LEAVE an aid station ahead of cut off times. If you do not make a cut off time, please hand bib number to course marshall. The aid station captain will see that you have a ride back to race HQ. Anyone who finishes the race after 8:30 will be listed on the official finish with No Time.
+2. Time Constraints will be STRICTLY enforced. These are not suggestions and are no longer up to the discretion of event staff or participants. A runner MUST LEAVE an aid station ahead of cut off times. If you do not make a cut off time, please hand bib number to course marshall. The aid station captain will see that you have a ride back to race HQ. Anyone who finishes the race after 9:00 will be listed on the official finish with No Time.
 
 3. Race number must remain visible on the front torso at all times.
 
