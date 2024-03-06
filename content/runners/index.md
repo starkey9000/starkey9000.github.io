@@ -86,7 +86,7 @@ Packet pickup is held from 3:00 pm to 6:00 pm in the garage near the back of the
 | 12:30         | First finishers complete race. 31 miles                                                                                                                                                      |
 | 2:20          | Aid station # 3 closes (5 hrs 50 mins for 21.6 miles) Any runner arriving after 2:20pm will be asked to skip the next section and return to the finish by car or via trail and will be a DNF |
 | 3:50          | Aid station #4 closes (7 hrs 20 mins for 25.7 miles)a runner arriving after 3:50pm will be asked to skip the next 5-mile section and return to the finish by car and will be a DNF.          |
-| 4:30          | HAT Run closes                                                                                                                                                                               |
+| 5:30          | HAT Run closes                                                                                                                                                                               |
 | 6:00          | Park closes. Runners should be out of the parking area before the park gates are locked.                                                                                                     |
 
 ## Aid Stations
@@ -103,7 +103,7 @@ Packet pickup is held from 3:00 pm to 6:00 pm in the garage near the back of the
 | Picnic Area I         | Full\*     | 4.6            | 21.6         | 5:50                 | 2:20 PM             |
 | Picnic Area II        | Full\*     | 4.1            | 25.7         | 7:20                 | 3:50 PM             |
 | Unmanned Water Stop   | Water Only | 3.3            | 29           | 8:20                 | 4:50 PM             |
-| Start/Finish Pavilion | Full\*     | 2              | 31           | 9:00                 | 4:30 PM             |
+| Start/Finish Pavilion | Full\*     | 2              | 31           | 9:00                 | 5:30 PM             |
 
 **\*Full:**
 
