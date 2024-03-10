@@ -410,8 +410,8 @@ p {
   .footer-container {
     display: flex;
     flex-direction: row;
-    gap: 7rem;
-    max-width: 900px;
+    gap: 4rem;
+    max-width: 1200px;
     padding: 0rem 3rem;
   }
 }
