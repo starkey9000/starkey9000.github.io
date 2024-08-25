@@ -16,12 +16,7 @@ The HAT Run is held on the trails of Susquehanna State Park. The course is mostl
 
 ## Pricing Schedule
 
-Race registration opens Black Friday, November 24, at $90.
-That price is good through midnight Monday, November 27.
-
-Price will increase to $100 Tuesday November 28 through the end of the year.
-
-Price will increase on January 1, 2024 to $120, and remain open until March 17, 2024.
+{{< pricingSchedule >}}
 
 ## Entry and Refund Policy
 

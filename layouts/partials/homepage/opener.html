@@ -3,7 +3,7 @@
     <h1 style="margin-top: 0px">{{.Site.Params.event.annual}} Annual Hinte Anderson Trail Run 50K</h1>
     <p>Hello HAT runners, volunteers, and fans,</p>
 
-    <p>{{.Site.Params.event.raceMonth}} {{.Site.Params.event.raceDate}}rd, {{.Site.Params.event.raceYear}} will mark the
+    <p>{{.Site.Params.event.raceMonth}} {{.Site.Params.event.raceDate}}{{.Site.Params.event.ordinal}}, {{.Site.Params.event.raceYear}} will mark the
       {{.Site.Params.event.annual}}
       running of this
       iconic spring ultra-marathon on the trails of Susquehanna State Park, in Havre de Grace, MD. The
@@ -16,7 +16,7 @@
     <div style="text-align: center; margin: 2rem 0rem; font-size: 1.3rem">
       <p style="margin: 0">Registration will open on Black Friday, {{.Site.Params.registration.month}} {{.Site.Params.registration.date}}, {{.Site.Params.registration.year}} at $90</p>
       <p style="margin: 0"><a href="{{.Site.Params.registerLink}}">REGISTER HERE</a></p>
-      <p>There will be a 350 runner cap on the 2024 race, register early.</p>
+      <p>There will be a {{.Site.Params.event.raceCap}} runner cap on the {{.Site.Params.event.raceYear}} race, register early.</p>
     </div>
 
     <p>The Steppingstone Farm Museum serves as our race day headquarters as well as the start/finish line. By day's
@@ -47,7 +47,7 @@
     <p>Registration opens Black Friday, {{.Site.Params.registration.month}}
       {{.Site.Params.registration.date}} on <a href="{{.Site.Params.registerLink}}">ultrasignup.com</a></p>
 
-    <p>We'll be ready for you on {{.Site.Params.event.raceMonth}} {{.Site.Params.event.raceDate}}rd,
+    <p>We'll be ready for you on {{.Site.Params.event.raceMonth}} {{.Site.Params.event.raceDate}}{{.Site.Params.event.ordinal}},
       {{.Site.Params.event.raceYear}}. Don't miss this great ultra-run experience!</p>
   </div>
   <div class="column-right">

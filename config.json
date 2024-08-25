@@ -5,14 +5,22 @@
   "Params": {
     "event": {
       "raceMonth": "March",
-      "raceDate": "23",
-      "raceYear": "2024",
-      "annual": "34th"
+      "raceDate": "22",
+      "raceYear": "2025",
+      "annual": "35th",
+      "ordinal": "nd",
+      "raceCap": "350"
     },
     "registration": {
       "month": "November",
-      "date": "24",
-      "year": "2023"
+      "date": "29",
+      "year": "2024"
+    },
+    "pricingSchedule": {
+      "isSet": false,
+      "first": "Opening price is $90 and is good through midnight Monday, November 27.",
+      "second": "Price will increase to $100 Tuesday November 28 through the end of the year.",
+      "third": "Price will increase on January 1, 2024 to $120, and remain open until March 17, 2024."
     },
     "navigation": [
       "Runners",
@@ -43,6 +51,6 @@
       }
     ],
     "builtBy": "SMS",
-    "copyright": 2023
+    "copyright": 2024
   }
 }
