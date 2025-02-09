@@ -60,8 +60,6 @@ SATURDAY (6:30am – 8:45am):
 
 ### **Finish Line** – Near the Corn Crib at Steppingstone Museum (Location 2 on map)
 
-Duties depend on your shift (10am – 1pm; 1pm – 5pm)
-
 -Assist with swag, race scoring, awards, etc.
 
 {{< /volunteerBlock >}}
@@ -70,7 +68,7 @@ Duties depend on your shift (10am – 1pm; 1pm – 5pm)
 
 ### **Upper Aid Station** – Pavilion at Steppingstone Museum (Location 2 on map)
 
-Duties depend on your shift (6:30am – 9:30am; 9:30am – 1:30pm; 1:30pm – 5:30pm):
+Duties depend on your shift (9:00am – 1:30pm; 1:30pm – 5:30pm):
 
 - Help set up the aid station, drinks, food, etc. (AM)
 - Provide water and aid to runners as they pass through (all shifts)
@@ -83,7 +81,7 @@ Duties depend on your shift (6:30am – 9:30am; 9:30am – 1:30pm; 1:30pm – 5:
 
 ### **Lower Aid** – Deer Creek Picnic Area (Location 3 on map)
 
-Duties depend on your shift (9am – 1pm; 1pm – 5pm):
+Duties depend on your shift (9am – 1:30pm; 1pm – 5pm):
 
 - Help set up the aid station, drinks, food, etc. (AM)
 - Provide water and aid to runners as they pass through (all shifts)
