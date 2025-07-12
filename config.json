@@ -5,10 +5,10 @@
   "Params": {
     "event": {
       "raceMonth": "March",
-      "raceDate": "22",
-      "raceYear": "2025",
-      "annual": "35th",
-      "ordinal": "nd",
+      "raceDate": "21",
+      "raceYear": "2026",
+      "annual": "36th",
+      "ordinal": "st",
       "raceCap": "350"
     },
     "registration": {
@@ -51,6 +51,6 @@
       }
     ],
     "builtBy": "SMS",
-    "copyright": 2024
+    "copyright": 2025
   }
 }
