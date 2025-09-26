@@ -16,6 +16,13 @@
   </nav>
   {{partial "header" .}}
   <!-- <div class="main-content-narrow-wrapper"> -->
+
+  <!-- comment out tribute banner to remove temp banner that sits
+       below the image banner on the homepage -->
+  <div class="content-full-wrapper" style="background-color: #F2F2F2;">
+    {{partial "tribute" .}}
+  </div>
+
   <div class="content-full-wrapper">
     {{partial "homepage/opener" .}}
   </div>
