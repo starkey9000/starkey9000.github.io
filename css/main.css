@@ -312,7 +312,8 @@ ul {
   }
 }
 
-.contest-content h2{
+.contest-content h2
+{
   margin: 1.2rem 0rem;
 }
 
@@ -682,7 +683,21 @@ tr>td:first-of-type {
   }
 
  
+  .rules-wrapper{
+    background-color: #eee;
+  }
 
+  .rules-container{
+    max-width: 1300px; 
+    margin: 0 auto; 
+    padding: 2rem 1rem;
+  }
+
+  @media only screen and (min-width: 1023px) {
+    .rules-container{
+      max-width: 900px; 
+    }   
+  }
 
   .rule-section {
     margin-bottom: 25px;
