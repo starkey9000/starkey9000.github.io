@@ -281,6 +281,21 @@ ul {
   padding: 1rem;
 }
 
+.contest-content{
+  padding: 1rem;
+}
+
+ .team-name::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: var(--button);
+  border-radius: 5px;
+  margin-top: 4px;
+  width: 50%;
+  line-height: .1rem;
+}
+
 @media only screen and (min-width: 767px) {
   .main-content-narrow-wrapper {
     max-width: 900px;
@@ -288,6 +303,17 @@ ul {
     margin-bottom: 2rem;
     height: 100%;
   }
+
+  .contest-content{
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 2rem;
+    height: 100%;
+  }
+}
+
+.contest-content h2{
+  margin: 1.2rem 0rem;
 }
 
 .main-content-narrow-wrapper h2 {
@@ -592,3 +618,187 @@ tr>td:first-of-type {
     width: 40%;
   }
 }
+
+/* Team Competition */
+  h1.competition-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); /* 4 columns */
+      grid-template-rows: repeat(3, 1fr);    /* 2 rows */
+      gap: 20px 0px;
+    }
+
+  @media only screen and (min-width: 1023px) {
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 4 columns */
+      grid-template-rows: repeat(3, 1fr);    /* 2 rows */
+      gap: 40px 40px;
+    }
+
+  }
+
+  .team {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  }
+
+  .team-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .members {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .members li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .members li:last-child {
+    border-bottom: none;
+  }
+
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+ 
+
+
+  .rule-section {
+    margin-bottom: 25px;
+  }
+
+  .rule-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 4px solid #3498db;
+  }
+
+  .rule-content {
+    padding-left: 14px;
+    line-height: 1.6;
+  }
+
+  ul {
+    margin: 10px 0 0 20px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  .highlight {
+    background: #eef6ff;
+    border-left: 4px solid #3498db;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+
+  .example {
+    background: #f9f9f9;
+    border-left: 4px solid #27ae60;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .note {
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+  }
+
+
+  /* Competition Results */
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto);   /* 2 rows */
+    gap: 20px 0px;
+  }
+
+  @media only screen and (min-width: 1023px) {
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 4 columns */
+      grid-template-rows: repeat(2, auto);   /* 2 rows */
+      gap: 20px 20px;
+    }
+
+  }
+
+  .team-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+  }
+
+  /* Different team colors */
+  .team-a { background: #e74c3c; }
+  .team-b { background: #3498db; }
+  .team-c { background: #27ae60; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 6px;
+    text-align: left;
+  }
+
+  th {
+    border-bottom: 2px solid #ddd;
+  }
+
+  tr:not(:last-child) td {
+    border-bottom: 1px solid #eee;
+  }
+
+  .time {
+    font-weight: bold;
+  }
