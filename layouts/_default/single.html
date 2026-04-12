@@ -4,33 +4,132 @@
 
 {{ define "main" }}
 
+{{ if eq .Title "HAT Competition" }}
+
+<div style="height:90px; background: var(--button)">
+  <div class="main-content-narrow-wrapper">
+    <div style="color:var(--white); display: flex; align-items: center;height: 100%;font-size: 1.3rem;">
+      HINTE ANDERSON TEAM COMPETITION
+    </div>
+  </div>
+</div>
+
+{{else}}
 
 {{partial "breadcrumbs" . }}
 
-
-<div class="main-content-narrow-wrapper">
-
-  <div style="padding: 3rem 0rem;">
-    {{ if eq .Title "Spectators" }}
-    <p>It is the {{.Site.Params.event.annual}} running of the HAT Run and we want to celebrate with runners, family, and
-      guests. Come spend the
-      day and enjoy the race and the park!</p>
-    <iframe id="race-hq-map" class="interactive-map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.126985161661!2d-76.14204318470125!3d39.60182181271867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c7c656c4e19c87%3A0x87cad4ac0baf531!2s461%20Quaker%20Bottom%20Rd%2C%20Havre%20De%20Grace%2C%20MD%2021078!5e0!3m2!1sen!2sus!4v1655569511416!5m2!1sen!2sus"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-    {{end}}
-
-    {{ if .Date}}
-    <p><em>{{ .Date | time.Format ":date_full" }}</em></p>
-    {{end}}
+{{end}}
 
 
+  {{ if eq .Title "HAT Competition" }}
 
-    {{ .Content }}
+    <div class="contest-content">
 
-  </div>
+      {{ .Content }}
 
-</div>
+    </div>
+      
+
+
+    <div style="background-color: #eee;">
+      <div style="max-width: 1300px; margin: 0 auto; padding: 2rem;">
+
+        <h2>Team Competition Rules</h2>
+        <div class="rule-section">
+          <div class="rule-title">Team Composition</div>
+          <div class="rule-content">
+            <ul>
+              <li>Each team must have a minimum of 3 runners.</li>
+              <li>Each team can have a maximum of 5 runners.</li>
+              <div class="highlight">
+                  Team names should be family friendly
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <div class="rule-section">
+          <div class="rule-title">Categories</div>
+          <div class="rule-content">
+            <ul>
+              <li>All Male</li>
+              <li>All Female</li>
+              <li>Mixed</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="rule-section">
+          <div class="rule-title">Scoring System</div>
+          <div class="rule-content">
+            <ul>
+              <li>Only 3 team members will score.</li>
+              <li>For mixed teams, at least 1 person from each sex will score.</li>
+              <li>Scoring will be based on total time. (lowest time wins)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="rule-section">
+          <div class="rule-title">Eligibility</div>
+          <div class="rule-content">
+            <ul>
+              <li>All participants must be officially registered for the race.</li>
+              <li>Runners may only compete for one team.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="rule-section">
+          <div class="rule-title">Prizes</div>
+          <div class="rule-content">
+            <ul>
+              <li>The team with the lowest cumulative time wins!</li>
+              <li>Best team uniform</li>
+              <li>Solidarity (first team where 3 members finish together)</li>
+              <li>All teams are eligible for random prizes</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="note">
+          * Race organizers reserve the right to adjust rules if necessary.
+        </div>
+
+      </div>
+    </div>
+
+
+  {{ else }}
+
+    <div class="main-content-narrow-wrapper">
+
+      <div style="padding: 3rem 0rem;">
+        {{ if eq .Title "Spectators" }}
+        <p>It is the {{.Site.Params.event.annual}} running of the HAT Run and we want to celebrate with runners, family, and
+          guests. Come spend the
+          day and enjoy the race and the park!</p>
+        <iframe id="race-hq-map" class="interactive-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.126985161661!2d-76.14204318470125!3d39.60182181271867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c7c656c4e19c87%3A0x87cad4ac0baf531!2s461%20Quaker%20Bottom%20Rd%2C%20Havre%20De%20Grace%2C%20MD%2021078!5e0!3m2!1sen!2sus!4v1655569511416!5m2!1sen!2sus"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        {{end}}
+
+        {{ if .Date}}
+        <p><em>{{ .Date | time.Format ":date_full" }}</em></p>
+        {{end}}
+
+
+
+        {{ .Content }}
+
+      </div>
+
+    </div>
+
+  {{ end }}
+
+
+
 
 {{ end }}
