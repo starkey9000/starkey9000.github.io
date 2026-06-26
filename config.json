@@ -5,16 +5,16 @@
   "Params": {
     "event": {
       "raceMonth": "March",
-      "raceDate": "21",
-      "raceYear": "2026",
-      "annual": "36th",
-      "ordinal": "st",
+      "raceDate": "20",
+      "raceYear": "2027",
+      "annual": "37th",
+      "ordinal": "th",
       "raceCap": "350"
     },
     "registration": {
       "month": "November",
-      "date": "28",
-      "year": "2025"
+      "date": "27",
+      "year": "2026"
     },
     "pricingSchedule": {
       "isSet": false,
@@ -52,6 +52,6 @@
       }
     ],
     "builtBy": "SMS",
-    "copyright": 2025
+    "copyright": 2026
   }
 }
