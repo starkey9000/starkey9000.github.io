@@ -114,10 +114,14 @@ Packet pickup is held from 3:00 pm to 6:00 pm in the garage near the back of the
 
 ## 2022 RACE
 
+<!--
+
 #### Image gallery provided by Alex Harris
 
 {{< passedLink link="https://alexharris.smugmug.com/Running/2022-Races/HAT-50K" title="2022 Race Photo Gallery"
 style="margin-bottom: 1rem" >}}
+
+-->
 
 #### Video of the 2022 race provided by
 
