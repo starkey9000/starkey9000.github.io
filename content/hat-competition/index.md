@@ -1,7 +1,7 @@
 ---
 title: "HAT Competition"
 menu: "mainmenu"
-weight: "5"
+weight: "4"
 ---
 
 {{< competitionResults >}}
