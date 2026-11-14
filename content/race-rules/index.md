@@ -1,7 +1,7 @@
 ---
 title: "Race Rules"
 menu: "mainmenu"
-weight: "4"
+weight: "6"
 ---
 
 1. Absolutely NO Transferring of bib numbers. Registered runners only! This is critical to the safe tracking of all participants and the future of this event. If you are caught transferring or selling your bib, using a pacer or running as a bandit, you will be barred from future events.
